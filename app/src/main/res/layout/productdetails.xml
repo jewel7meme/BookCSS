@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTitle"
+        android:layout_gravity="center"
+        android:layout_margin="5dip"
+        android:textSize="26dip"
+        android:text="Dead or Alive"
+        android:textColor="#000000">
+    </TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView android:layout_width="109dp"
+            android:layout_height="127dp"
+            android:id="@+id/ImageViewProduct"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/deadoralive"
+            android:layout_margin="5dip">
+
+        </ImageView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView android:layout_height="wrap_content"
+                android:id="@+id/textViewAuthor"
+                android:layout_width="match_parent"
+                android:layout_margin="5dip"
+                android:textColor="#000000"
+                android:text="Author: "
+                android:layout_weight="12.50">
+            </TextView>
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewEdition"
+                android:layout_weight="12.50" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewISBN"
+                android:layout_weight="12.50" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewCourseNumber"
+                android:layout_weight="12.50" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewCourseName"
+                android:layout_weight="12.50" />
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewPrice"
+                android:layout_weight="12.50" />
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewSellerName"
+                android:layout_weight="12.50" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_gravity="right"
+        android:id="@+id/ButtonAddToCart"
+        android:text="Add to Cart">
+    </Button>
+</LinearLayout>
+
