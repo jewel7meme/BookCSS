@@ -20,15 +20,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <ImageView android:layout_width="109dp"
+        <ImageView
+            android:layout_width="109dp"
             android:layout_height="127dp"
             android:id="@+id/ImageViewProduct"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
-            android:src="@drawable/deadoralive"
-            android:layout_margin="5dip">
-
-        </ImageView>
+            android:layout_margin="5dip" />
 
         <LinearLayout
             android:orientation="vertical"

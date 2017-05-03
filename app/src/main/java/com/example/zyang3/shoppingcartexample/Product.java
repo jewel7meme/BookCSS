@@ -16,13 +16,13 @@ public class Product {
     public double price;
     public boolean selected;
     public String sellerName;
-    /*
-        public Product(String title, Drawable productImage,
+
+        /*public Product(String title, Drawable productImage,
                        String courseNumber, String courseName,
                        String author, int edition,
                        String isbn, double price, String sellerName){
             this.title = title;
-            //this.productImage = productImage;
+            this.productImage = productImage;
             this.courseNumber = courseNumber;
             this.courseName = courseName;
             this.author = author;
@@ -30,8 +30,8 @@ public class Product {
             this.isbn = isbn;
             this.price = price;
             this.sellerName = sellerName;
-        }
-    */
+        }*/
+
     public Product(String title,
                    String courseNumber, String courseName,
                    String author, int edition,

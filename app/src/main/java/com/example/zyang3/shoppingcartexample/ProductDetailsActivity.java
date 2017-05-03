@@ -1,5 +1,6 @@
 package com.example.zyang3.shoppingcartexample;
 
+import android.media.Image;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -33,6 +34,9 @@ public class ProductDetailsActivity extends AppCompatActivity {
         //Title
         TextView titleTextView = (TextView)findViewById(R.id.textViewTitle);
         titleTextView.setText(selectedProduct.title);
+        //Image
+        //ImageView image = (ImageView) findViewById(R.id.ImageViewProduct);
+        //image.setImageDrawable(selectedProduct.productImage);
         //Author
         TextView authorTextView = (TextView)findViewById(R.id.textViewAuthor);
         authorTextView.setText(selectedProduct.author);
